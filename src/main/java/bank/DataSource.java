@@ -49,7 +49,7 @@ public class DataSource {
 
   public static void main(String[]args){
     Customer customer = getCustomer("twest8o@friendfeed.com");
-    System.out.println(customer.getId());
+    System.out.println(customer.getName());
 
   }
 }
